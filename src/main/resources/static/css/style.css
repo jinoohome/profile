@@ -830,6 +830,22 @@ ul.cat li a.active {
     transition: background-color 0.5s;
 }
 
+
+.phoneNavi i.fa-phone {
+    text-align: center;
+    font-size: 30px;
+    background-color: #FFCC33;
+    color: #ffffff;
+    padding: 13px 0;
+    border-radius: 50px;
+    /* border-top-left-radius: 0; */
+    margin: 0 10px;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    transition: background-color 0.5s;
+}
+
 .work-process i.fa {
     text-align: center;
     font-size: 30px;
@@ -1328,9 +1344,22 @@ ul.meta-tags li:last-child:after { content: ' ' }
 		font-size: 30pt!important;
 	}
 
-	.fa-arrow-circle-up{
+	.nav-right .fa-arrow-circle-up{
 		font-size:30pt!important;
 	}
+
+	.nav-right .phoneNavi .fa-phone{
+		font-size:30pt!important;
+	}
+
+	.nav-right .phoneNavi i.fa {
+		width: 40px;
+		height: 40px;
+		padding: 8px 0;
+		font-size:20pt!important;
+		margin:0px;
+	}
+
 
 
 }
